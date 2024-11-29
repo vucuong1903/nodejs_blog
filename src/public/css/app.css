@@ -1,0 +1,28 @@
+@charset "UTF-8";
+h1 {
+  color: red;
+}
+
+.card-courses-item {
+  margin-top: 16px;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.checkbox-select-all-options {
+  width: 22%;
+  margin: 0 8px;
+}
+
+.card-text {
+  display: -webkit-box; /* Kích hoạt chế độ hiển thị khối */
+  -webkit-line-clamp: 4; /* Giới hạn số dòng hiển thị (ở đây là 4 dòng) */
+  -webkit-box-orient: vertical; /* Định hướng theo chiều dọc */
+  overflow: hidden; /* Ẩn phần nội dung vượt quá */
+  text-overflow: ellipsis; /* Thêm "..." nếu nội dung bị cắt */
+}
